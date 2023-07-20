@@ -22,3 +22,4 @@ while True:
   elif c1>=50:
     clear_p(k, c1)
     c1=0
+
