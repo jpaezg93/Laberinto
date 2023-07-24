@@ -76,6 +76,11 @@ while True:
   #Actualizamos la posicion anterior con el valor '.' para no dejar un camino de 'P'
   lb[p_a[0]][p_a[1]]='.'
   #agregamos restriccion para las paredes del laberinto. La posicion del jugador no cambia si el jugador se intenta mover hacia donde hay una pared ('#)
+  if px==(len(lb)-1) and py==(len(lb[0])-2):
+    lb[px][py] = 'P'
+    vis_lab(lb)
+    print('Lograste resolver el laberinto\nFELICITACIONES!!!')
+    break
   if lb[px][py] == '#':
     px, py = p_a
   #esta seccion la utilizamos para salir del juego en caso de que el jugador presione la tecla enter
