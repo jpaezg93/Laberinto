@@ -25,7 +25,7 @@ def lab(f):
 def vis_lab(laberinto):
   os.system('cls' if os.name == 'nt' else 'clear')
   for i in laberinto:
-    print(i)
+    print(" ".join(i))
 
 def move(lb, px, py, k, p_a):
   '''
