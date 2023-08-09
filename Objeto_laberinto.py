@@ -22,14 +22,14 @@ class laberinto:
         self.py = 1
         self.p_a = [0,1]
     def dibujar(self):
-        self.lb[self.px][self.py] = 'P'
+        self.lb[self.px][self.py] = "\U0001F600"
         os.system('cls' if os.name == 'nt' else 'clear')
         for i in self.lb:
             print(" ".join(i))
 
 class juego (laberinto):
     def mover(self,tecla,nombre):
-        self.lb[self.px][self.py] = 'P'
+        self.lb[self.px][self.py] = "\U0001F600"
         self.tecla = tecla
         if not (0 <= self.py <= len(self.lb[0]) and 0 <= self.px <= len(self.lb)):
             return self.p_a[0], self.p_a[1]
