@@ -6,7 +6,7 @@ import random
 def main():
     nombre = input('Hola! Cual es tu nombre?: ')
     while True:
-        print('Que tal', nombre+'?','Bienvenido a nuestro laberinto!\nHaz tu mejor esfuerzo para salir!\nPresiona enter para empezar',sep=" " )
+        print('Que tal', nombre+'?','Ayuda a Mako a encontrar su recompensa\nHaz tu mejor esfuerzo para resolver el laberinto!\nPresiona enter para empezar',sep=" " )
         saludo = readkey()
         if saludo == key.ENTER:
             break
