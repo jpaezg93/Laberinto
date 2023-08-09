@@ -1,10 +1,10 @@
 ## LABERINTO!
 
-#.#####
-#.#...#
-#.P.#.#
-#####.#
-#####.#
+#.#####\n
+#.#...#\n
+#.P.#.#\n
+#####.#\n
+#####.#\n
 
 Este código es un juego de laberinto que te desafía a escapar de diferentes mapas llenos de obstáculos.
 Para jugar, solo necesitas usar las flechas del teclado (←↑→↓) para moverte por el laberinto. El juego te muestra donde estas con la letra P y los diferentes caminos que puedes recorrer estan delineados en puntos.
