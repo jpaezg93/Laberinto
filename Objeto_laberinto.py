@@ -18,18 +18,19 @@ class laberinto:
         self.lb[-1][-1]='#'
         self.lb[0][0]='#'
         self.lb[1][0]='#'
+        self.lb[-1][-2]= "\U0001F34C"
         self.px = 0
         self.py = 1
         self.p_a = [0,1]
     def dibujar(self):
-        self.lb[self.px][self.py] = "\U0001F600"
+        self.lb[self.px][self.py] = "\U0001F412"
         os.system('cls' if os.name == 'nt' else 'clear')
         for i in self.lb:
             print(" ".join(i))
 
 class juego (laberinto):
     def mover(self,tecla,nombre):
-        self.lb[self.px][self.py] = "\U0001F600"
+        self.lb[self.px][self.py] = "\U0001F412"
         self.tecla = tecla
         if not (0 <= self.py <= len(self.lb[0]) and 0 <= self.px <= len(self.lb)):
             return self.p_a[0], self.p_a[1]

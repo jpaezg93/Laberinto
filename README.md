@@ -1,13 +1,14 @@
-## LABERINTO!
+## LABERINTO DE MAKO!
 
 ![Alt text](image.png)
 
-Este código es un juego de laberinto que te desafía a escapar de diferentes mapas llenos de obstáculos.
-Para jugar, debes instalar la liberia [readchar](https://pypi.org/project/readchar/) e implementarlo desde la consola. 
+Ayuda a Mako a encontrar su banana, completa el laberinto lleno de obstáculos para que Mako obtenga una apetitosa recompensa.
 
-Usa las flechas del teclado (↑ ↓ ← →) para moverte por el laberinto. El juego te muestra donde estas con tu personje con el emoji :smiley: y los diferentes caminos que puedes recorrer estan delineados con puntos.
+Para jugar, debes instalar la liberia [readchar](https://pypi.org/project/readchar/) e implementar el codigo desde la consola. 
 
-Pero cuidado, si te chocas con una pared (#), tendrás que retroceder y buscar otra salida. El juego es dinámico y divertido, ya que cada vez que completas un laberinto, se carga uno nuevo al azar. Así que nunca te aburrirás de explorar estos laberintos!
+Usa las flechas del teclado (↑ ↓ ← →) para guiar a Mako y moverte por el laberinto. El juego te muestra donde esta Mako y los diferentes caminos que puedes recorrer delineados con puntos.
+
+Pero cuidado, si te chocas con una pared (#), tendrás que retroceder y buscar otro camino. El juego es dinámico y divertido, ya que cada vez que completas un laberinto, se carga uno nuevo para buscar mas bananas. Así nunca te aburrirás de explorar estos laberintos!
 
 ¿Estás listo para el reto?
 
