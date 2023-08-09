@@ -3,7 +3,7 @@
 ![Alt text](image.png)
 
 Este código es un juego de laberinto que te desafía a escapar de diferentes mapas llenos de obstáculos.
-Para jugar, debes instalar la liberia [readchar](https://pypi.org/project/readchar/). 
+Para jugar, debes instalar la liberia [readchar](https://pypi.org/project/readchar/) e implementarlo desde la consola. 
 
 Usa las flechas del teclado (↑ ↓ ← →) para moverte por el laberinto. El juego te muestra donde estas con tu personje con el emoji :smiley: y los diferentes caminos que puedes recorrer estan delineados con puntos.
 
