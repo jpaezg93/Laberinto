@@ -52,7 +52,7 @@ class juego (laberinto):
             self.p_a[0] = self.px+1
         if self.px==(len(self.lb)-1) and self.py==(len(self.lb[0])-2):
             self.lb[self.p_a[0]][self.p_a[1]]='.'
-            print('Felicitaciones!! {} lograste completar el laberinto!!\nPresiona cualquier tecla para continuar'.format(nombre))
+            print('Gracias por ayudar a Mako!! {} lograste completar el laberinto!!\nPresiona cualquier tecla para continuar y buscar mas bananas'.format(nombre))
             readkey()
             return True
         else:

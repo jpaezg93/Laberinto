@@ -1,4 +1,4 @@
-## LABERINTO DE MAKO!
+## EL LABERINTO DE MAKO!
 
 ![Alt text](image.png)
 
