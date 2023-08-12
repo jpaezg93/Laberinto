@@ -4,16 +4,10 @@ import os
 class laberinto:
     def __init__(self, archivo):
         self.archivo = archivo
-        text = open(self.archivo)
-        self.lb = list()
-        c_1 = 0
-        for line in text:
-            line = line.rstrip()
-            c_1+=1
-            if c_1==1:
-                a = line.split()
-            else:
-                self.lb.append(list(line))
+        with open(self.archivo) as f:
+            texto = f.readlines()
+            test = [linea.rstrip() for linea in texto]
+            self.lb = list(map(list,test[1:]))
         self.lb[-2][-1]='#'
         self.lb[-1][-1]='#'
         self.lb[0][0]='#'
